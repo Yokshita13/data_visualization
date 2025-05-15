@@ -12,3 +12,5 @@ print(df.shape) # Counts rows and columns
 print(df.columns) # List of column names
 
 print(df.dtypes) # Data types of each column
+
+print(df.info) # Returns range index
