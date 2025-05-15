@@ -7,6 +7,8 @@ data = {
 
 df = pd.DataFrame(data)
 
+print(df.isnull()) # Used to detect NAN values
+
 print(df.isnull().sum()) # Total missing values per column
 
 print(df.isnull().any()) # Checks if any column has missing values
